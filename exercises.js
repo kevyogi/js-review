@@ -9,21 +9,55 @@ Now, unleash your coding beast!
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
 
+var yourName = "Kevin";
+var neighborName = "Nao";
+var teacherName = "Vic";
+
+console.log(yourName);
+console.log(neighborName);
+console.log(teacherName);
+
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
 
+var numberOfFloorsBurjKhalifa = 99;
+var TokyoOlympicsYear = 2020;
+
+console.log(numberOfFloorsBurjKhalifa);
+console.log(TokyoOlympicsYear);
+
+
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = true;
+var eatsDonuts = false;
+var drinksGin = true;
+
+console.log(lovesPrepClass);
+console.log(eatsDonuts);
+console.log(drinksGin);
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+
+var completedCodingChallenge = null;
+var traveledToSpace = null;
+
+console.log(completedCodingChallenge);
+console.log(traveledToSpace);
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
 Console log the variable 
 Console log the value at index 1.
 Console log the value at index 3.*/
+
+var japanPrefectures = ["Kyoto", "Gifu", "Kochi", "Chiba", "Aomori"];
+console.log(japanPrefectures);
+console.log(japanPrefectures[1]);
+console.log(japanPrefectures[3]);
 
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
@@ -54,6 +88,13 @@ b) a string and a number "three" and 3
 
 console log each variable*/
 
+var var1 = "Racecar";
+var var2 = "racecar";
+var var3 = "3";
+var var4 = 3;
+
+
+
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
     name    => "Hilton"
@@ -62,6 +103,15 @@ console log each variable*/
     checkIn => null
 
  console log the object*/
+
+var hotel = {
+  name: "Hilton",
+  rooms: 200,
+  pool: true,
+  checkIn: null
+};
+
+console.log(hotel);
 
 /*13.  Declare a literal object named "car" with properties and values set to:
 
@@ -72,6 +122,15 @@ console log each variable*/
 
  console log the object*/
 
+ var car = {
+  make: "BMW",
+  model: "X5",
+  year: 2015,
+  doors: 4
+ };
+
+ console.log(car);
+
 /*14.  Declare a literal object named bigBox and set its value to be an empty object.
 
 Add a property named size and set it to a random number value between 0 and 50 (hint, use Math.something...)
@@ -79,6 +138,16 @@ Add a property named color and set it to any color.
 Add a property named contents and set it to be an empty array
 
 console log the object*/
+
+var bigBox = {
+
+};
+
+bigBox.size = Math.floor(Math.random()*80);
+bigBox.color = "purple";
+bigBox.contents = [];
+
+console.log(bigBox);
 
 /*15.  Declare a literal object named "colorMeBadd" with properties and values set to:
 
@@ -94,6 +163,19 @@ console log the object*/
    isJapanese => true              
 
 console log the object */ 
+
+var colorMeBadd = {
+  iro: {},
+  akai: "red",
+  aoi: "blue",
+  midori: "green",
+  shiroi: "white",
+  pinku: "pink",
+  murasaki: "purple",
+  isJapanese: true
+};
+
+console.log(colorMeBadd);
 
 /*16. As the general manager for the DevLeague Prep Beer Pong Team, your job is to select the starting players from the roster array. Create two variables, Ateam and Bteam and assign each an empty array. You will then assigned players that have an even number index position to the Ateam and odd number index position to the Bteam. Let the games begin! Console log the results.*/
 
